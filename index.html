@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Document</title>
+	</head>
+	<body>
+		<div id="container" class="flex flex-col items-center justify-center h-screen gap-6">
+			<div class="flex gap-6 text-4xl">
+				<button data-btn="rock" class="border-2 px-8 rounded-md py-1 border-slate-700 hover:bg-sky-200">rock</button>
+				<button data-btn="paper" class="border-2 px-8 rounded-md py-1 border-slate-700 hover:bg-sky-200">paper</button>
+				<button data-btn="scissors" class="border-2 px-8 rounded-md py-1 border-slate-700 hover:bg-sky-200">scissors</button>
+			</div>
+			<div class="text-4xl flex gap-44">
+				<div>
+					<p>computer</p>
+					<div id="computer" class="text-center pt-4">0</div>
+				</div>
+				<div>
+					<p>player</p>
+					<div id="player" class="text-center pt-4">0</div>
+				</div>
+			</div>
+			<!-- <p>Player Wins</p> -->
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>
